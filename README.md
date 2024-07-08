@@ -6,7 +6,7 @@
 
 📔[Ders Notları (Lecture Notes)](https://github.com/elifbeyzatok00/Deep-Learning/blob/main/Derin%20%C3%96%C4%9Freme%20Ders%20Notlar%C4%B1%202023-2024.pdf)
 
-
+---
 ### 1. Derin Öğrenmeye Giriş (Introduction to Deep Learning)
 Derin öğrenme, makine öğrenmesinin bir alt dalıdır ve yapay sinir ağlarının katmanlarının artmasıyla daha karmaşık ve yüksek doğruluklu modeller oluşturmayı hedefler. Derin öğrenme, büyük veri kümelerini ve güçlü işlem kaynaklarını kullanarak görüntü tanıma, ses tanıma, dil işleme gibi birçok alanda etkileyici sonuçlar elde eder.
 
