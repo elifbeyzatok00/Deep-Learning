@@ -1,8 +1,8 @@
 # Derin Öğrenme (Deep Learning)
 
-📌[Laboratuvar Kodları (Laboratory Codes)](https://github.com/elifbeyzatok00/Deep-Learning/tree/main/Labaratuvar%20Kodlar%C4%B1)
-
 📒[Ders Slaytları (Lecture Slides)](https://github.com/elifbeyzatok00/Deep-Learning/tree/main/slaytlar)
+
+📌[Laboratuvar Kodları (Laboratory Codes)](https://github.com/elifbeyzatok00/Deep-Learning/tree/main/Labaratuvar%20Kodlar%C4%B1)
 
 📔[Ders Notları (Lecture Notes)](https://github.com/elifbeyzatok00/Deep-Learning/blob/main/Derin%20%C3%96%C4%9Freme%20Ders%20Notlar%C4%B1%202023-2024.pdf)
 
@@ -30,4 +30,24 @@ Evrişimli sinir ağları, özellikle görüntü işleme ve bilgisayarla görme 
 ### 5. Üretici Çekişmeli Ağlar (GAN - Generative Adversarial Networks)
 Üretici çekişmeli ağlar, iki sinir ağından oluşur: bir üretici (generator) ve bir ayrıştırıcı (discriminator). Üretici ağ, gerçekçi veriler üretmeye çalışırken, ayrıştırıcı ağ, gerçek verileri sahte verilerden ayırt etmeye çalışır. Bu iki ağ, birbirine karşı yarışarak, gerçekçi ve yüksek kaliteli veri üretimi sağlar. GAN'lar, görüntü oluşturma, ses sentezi ve veri artırma gibi birçok alanda kullanılır.
 
-🔗[Üretici Çekişmeli Ağlar (GAN - Generative Adversarial Networks)](https://github.com/elifbeyzatok00/Deep-Learning/blob/main/slaytlar/5-GAN.pptx)
+🔗[Üretici Çekişmeli Ağlar (GAN - Generative Adversarial Networks)]()
+
+### 6. Perceptron
+Perceptron, yapay sinir ağlarının en basit formudur ve tek bir sinir hücresinden (nöron) oluşur. Girdi olarak aldığı verileri ağırlıklarla çarpar, ardından bu ağırlıklı toplamı bir eşik değerle karşılaştırarak karar verir. Eşik değeri aşan çıktılar için bir aktivasyon fonksiyonu uygulanır. Perceptron, iki sınıfı ayırmak için kullanılır ve doğrusal olarak ayrılabilen verilerde etkilidir.
+
+🔗[Perceptron](https://github.com/elifbeyzatok00/Deep-Learning/blob/main/Labaratuvar%20Kodlar%C4%B1/1-Perceptron.ipynb)
+
+### 7. CNN Adımları (CNN Steps)
+CNN'lerin temel adımları şunlardır:
+1. **Evrişim (Convolution):** Giriş görüntüsü üzerinde filtreler (kernels) uygulanarak özellik haritaları oluşturulur.
+2. **Aktivasyon (Activation):** Genellikle ReLU (Rectified Linear Unit) aktivasyon fonksiyonu kullanılarak, negatif değerler sıfırlanır ve doğrusal olmayan dönüşüm sağlanır.
+3. **Havuzlama (Pooling):** Özellik haritalarının boyutunu küçültmek ve hesaplama maliyetini azaltmak için maksimum veya ortalama havuzlama (max pooling veya average pooling) uygulanır.
+4. **Tam Bağlı Katman (Fully Connected Layer):** Havuzlama katmanlarından gelen veriler, düzleştirilir ve tam bağlı katmanlara iletilir. Bu katmanlar, sınıflandırma veya regresyon görevini yerine getirir.
+5. **Çıkış Katmanı (Output Layer):** Son katmanda, genellikle softmax aktivasyon fonksiyonu kullanılarak sınıflandırma sonuçları elde edilir.
+
+🔗[CNN Adımları (CNN Steps)](https://github.com/elifbeyzatok00/Deep-Learning/tree/main/Labaratuvar%20Kodlar%C4%B1/2-CNN%20Ad%C4%B1mlar%C4%B1)
+
+### 8. Yapay Sinir Ağları (ANN - Artificial Neural Networks)
+Yapay sinir ağları, insan beynindeki sinir hücrelerinin çalışma prensibini taklit eden hesaplama modelleridir. Temel bileşenleri nöronlar, ağırlıklar, aktivasyon fonksiyonları ve katmanlardır. Bir ANN genellikle bir giriş katmanı, bir veya daha fazla gizli katman ve bir çıkış katmanından oluşur. Nöronlar, girdileri işleyip aktivasyon fonksiyonları aracılığıyla çıktılar üretir. Bu ağlar, öğrenme sürecinde ağırlıklarını ayarlayarak verilerdeki desenleri öğrenirler. ANN'ler, çeşitli makine öğrenmesi ve derin öğrenme görevlerinde kullanılır.
+
+🔗[Yapay Sinir Ağları (ANN - Artificial Neural Networks)](https://github.com/elifbeyzatok00/Deep-Learning/blob/main/Labaratuvar%20Kodlar%C4%B1/3-ANN_Delta.ipynb)
